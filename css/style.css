@@ -7,13 +7,13 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url('https://images.unsplash.com/photo-1586339949216-35c2747cc36d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fG5ld3N8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
+    background: url('https://images.unsplash.com/photo-1583774139366-a903e7bc5236?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5ld3NwYXBlcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') bottom no-repeat;
     background-size: cover;
 }
 
 h1 {
     color: darkred;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -53,6 +53,10 @@ article img {
     height: 300px;
     object-fit: cover;
 }
+
+article:nth-child(even) {
+    background: green;
+  }
 
 
 footer {
