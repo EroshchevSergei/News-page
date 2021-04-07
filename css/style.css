@@ -56,6 +56,11 @@ article img {
 
 article:nth-child(even) {
     background: green;
+}
+
+h2::after {
+    content: "NEW";
+    color: red;
   }
 
 
